@@ -16,6 +16,10 @@ namespace TSQLLint.Tests.UnitTests.Rules
             },
             new object[]
             {
+                "cross-database-transaction", "cross-database-transaction-no-commit-no-error",  typeof(CrossDatabaseTransactionRule), new List<RuleViolation>()
+            },
+            new object[]
+            {
                 "cross-database-transaction", "cross-database-transaction-no-error-single-line",  typeof(CrossDatabaseTransactionRule), new List<RuleViolation>()
             },
             new object[]

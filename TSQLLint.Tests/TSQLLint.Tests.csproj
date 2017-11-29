@@ -147,6 +147,9 @@
     <None Update="UnitTests\Rules\cross-database-transaction\test-files\cross-database-transaction-multiple-errors.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="UnitTests\Rules\cross-database-transaction\test-files\cross-database-transaction-no-commit-no-error.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="UnitTests\Rules\cross-database-transaction\test-files\cross-database-transaction-one-error-single-line.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
